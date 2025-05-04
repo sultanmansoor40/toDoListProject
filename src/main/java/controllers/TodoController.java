@@ -2,7 +2,6 @@ package controllers;
 
 import com.sultanmansoor40.todolistproject.entities.Todo;
 import com.sultanmansoor40.todolistproject.entities.TodoRepository;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

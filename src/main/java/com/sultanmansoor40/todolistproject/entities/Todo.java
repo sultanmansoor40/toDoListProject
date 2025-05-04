@@ -1,7 +1,6 @@
 package com.sultanmansoor40.todolistproject.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
