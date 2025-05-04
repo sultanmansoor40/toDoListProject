@@ -1,4 +1,4 @@
-package controllers;
+package com.sultanmansoor40.todolistproject.controllers;
 
 import com.sultanmansoor40.todolistproject.entities.Todo;
 import com.sultanmansoor40.todolistproject.entities.TodoRepository;
