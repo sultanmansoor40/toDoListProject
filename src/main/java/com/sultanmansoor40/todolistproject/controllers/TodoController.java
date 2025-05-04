@@ -30,4 +30,10 @@ public class TodoController {
         return  this.todoRepository.save(todo);
     }
 
+    @PutMapping("/{todoId}")
+    public Optional<Todo> updateTodo(@PathVariable("todoId") Long todoId , @RequestBody Todo updatedTodo){
+        return this.todoRepository.findById(todoId)
+                .map(oldTodo -> this.todoRepository.save(updatedTodo));
+    }
+
 }
